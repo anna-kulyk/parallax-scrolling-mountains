@@ -27,12 +27,5 @@ window.addEventListener('load', () => {
         let mountain3Scale = 1 + (screenWidth * 0.00001 * parallaxScrollPercent);
         let mountain3TranslateX = screenWidth / 1500 * parallaxScrollPercent;
         mountain3.style.transform = `translate3d(${mountain3TranslateX}px,0,0) scale(${mountain3Scale})`;
-
-        // console.log('scrollValue ', scrollValue);
-        // console.log('contentHeight ', contentHeight);
-        // console.log('parallaxHeight ', parallaxHeight);
-        // console.log('contentScrollPercent ', contentScrollPercent);
-        // console.log('parallaxScrollPercent ', parallaxScrollPercent);
-        // console.log('mountain2Scale ', mountain2Scale);
     })
 })
